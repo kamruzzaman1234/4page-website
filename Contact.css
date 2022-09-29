@@ -1,0 +1,191 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+  }
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: myFirstFont;
+}
+/*============HEADER AREA START=================*/
+
+.nav-item .nav-link{
+    margin:10px;
+    color:#ffffff;
+}
+
+
+.header-icon span{
+    font-size:11px;
+    
+    font-weight:bold;
+    color:#ffffff;
+}
+
+/*============CONTACT SECTION ONE STYLING==============*/
+.navbar a{
+    padding-left:190px;
+}
+.contact-area-start{
+    padding:80px 0;
+    background:url('S-image/bc-service.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center center;
+    position:relative;
+}
+.contact-area-start:after{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:black;
+    z-index:1;
+    opacity:0.4;
+}
+
+.heading{
+   position:relative;
+   z-index:33;
+}
+.heading > .heading-title h2{
+    font-size:23px;
+    font-weight:bold;
+    margin-bottom:0.4rem;
+    position:relative;
+}
+
+.heading > .heading-title h2:after{
+    content:'';
+    position:absolute;
+    top:-8px;
+    left:-10px;
+    background:transparent;
+    height:17px;
+    width:45px;
+    border-top:2px solid #f6931d;
+    border-left:2px solid #f6931d;
+}
+
+.heading >.heading-title a{
+    text-decoration:none;
+    font-size:12px;
+    font-weight:bold;
+    margin:5px;
+
+}
+.heading .heading-title p{
+    font-size:11px;
+}
+
+/*===============SECTION TWO AREA FORM ADDRES AREA START===============*/
+.form-area{
+    padding:80px 0;
+
+}
+.address .heading-title p{
+    font-size:12px;
+    font-weight:400;
+    color:#999999;
+    font-weight:bold;
+}
+
+.address-area .icon-area span{
+    font-size:12px;
+    font-weight:bold;
+    color:#999999;
+    font-style:italic;
+    margin-left:10px;
+}
+.follow{
+    margin-top:20px;
+}
+.follow a{
+    font-size:11px;
+    font-weight:bold;
+    color:#000000;
+    text-decoration:none;
+}
+.follow a:hover{
+    text-decoration:none;
+    color:#000000;
+}
+/*==========FORM ADDRESS AREA ===========*/
+form input{
+    width:70%;
+}
+.btn-area{
+    padding:6px 40px;
+    margin-top:20px;
+    background:#f6931d;
+    color:#ffffff;
+    font-size:12px;
+    border:none;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+/*============LOCATION AREA START=============*/
+.location-area{
+    width:100;
+    height:250px;
+}
+
+@media only screen and (max-width: 992px){
+    .nav-item .nav-link{
+        margin:5px;
+        color:#ffffff;
+    }
+    .navbar a{
+        padding-left:0;
+    }
+}
+
+@media only screen and (max-width: 768px){
+   .navbar a{
+    padding-left:0px;
+   }
+   
+   
+   
+   
+    
+}
+@media only screen and (max-width: 575px){
+    .navbar a{
+        padding-left:0;
+    }
+    .contact-area-start{
+        padding-left:20px;
+    }
+    .form-area{
+        padding-left:20px;
+    }
+    .heading .one h2{
+        font-size:26px;
+        font-weight:bold
+    }
+    .heading .heading-title p{
+        font-size:10px;
+        font-weight:bold;
+        padding-right:100px;
+    }
+    .follow a{
+        font-size:11px;
+        font-weight:bold;
+        
+    }
+    .follow{
+        margin-bottom:20px;
+    }
+    .address-area .icon-area span{
+        font-size:14px;
+    }
+    .form-area{
+        padding-top:50px;
+        padding-bottom:50px;
+    }
+}

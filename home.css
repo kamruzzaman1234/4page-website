@@ -1,0 +1,587 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+  }
+  
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: myFirstFont;
+ 
+}
+a{
+    text-decoration:none;
+}
+a:hover{
+    text-decoration:none;
+    color:white;
+}
+.shadow{
+    box-shadow:-10px 10px 40px rgba(0,0,0,0.2);
+}
+.all-btn{
+    text-decoration:none;
+    padding:7px 14px;
+    background:#f6931d;
+    font-size:14px;
+    color:#ffffff;
+   
+}
+
+.all-btn:hover{
+    text-decoration:none;
+    color:white;
+}
+/*==========HEADER AREA START============*/
+.navbar a{
+    padding-left:190px;
+}
+
+
+.nav-item .nav-link{
+    margin:10px;
+    color:#ffffff;
+}
+
+.header-icon span{
+    font-size:11px;
+    
+    font-weight:bold;
+    color:#ffffff;
+}
+
+/*=======SECTION ONE AREA START=============*/
+.section-one{
+    background:url('Image/background.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center center;
+    padding:200px 0;
+    position:relative;
+   
+   
+}
+.section-one:after{
+   content:'';
+   position:absolute;
+   top:0;
+   left:0;
+   width:100%;
+   height:100%;
+   background:black;
+   z-index:1;
+   opacity:0.4;
+}
+.header{
+    position:relative;
+    z-index:3;
+ }
+.header h3{
+    font-size:17px;
+    color:#f6931d;
+    font-weight:500;
+ 
+}
+.header h2{
+    font-size:46px;
+    color:#ffffff;
+    margin-top:20px;
+    font-weight:600;
+
+}
+.header p{
+    color:#ffffff;
+    font-size:14px;
+    font-weight:700;
+    margin-top:20px;
+    margin-bottom:30px;
+    
+}
+.header a{
+    font-size:14px;
+    background:#f6931d;
+    
+    color:#ffffff;
+    padding:7px 10px;
+    text-decoration:none;
+
+  
+}
+.header a:hover{
+    color:white;
+}
+/*=============SECTION ONE AREA END================*/
+
+
+
+/*===========SECTION TWO AREA START==========*/
+
+
+.section-two{
+    padding:150px 0px;
+    
+}
+.heading > .heading-title h2{
+    font-size:23px;
+    font-weight:700;
+    margin-bottom:2rem;
+    position:relative;
+}
+.heading > .heading-title h2:after{
+    content:'';
+    position:absolute;
+    top:-8px;
+    left:-10px;
+    background:transparent;
+    height:17px;
+    width:45px;
+    border-top:3px solid #f6931d;
+    border-left:3px solid #f6931d;
+}
+
+.heading > .heading-title>p{
+    font-size:10px;
+    font-weight:600;
+    color:#000000;
+}
+.heading >.heading-icon{
+    font-size:25px;
+    color:#f6931d;
+    float:left;
+    margin-right:5px;
+}
+.heading-icon h3{
+    margin-top:-40px;
+    font-size:27px;
+    font-weight:bold;
+    color:#000000;
+}
+.heading-icon p{
+    font-size:10px;
+    color:#000000;
+}
+.heading >.second{
+    padding-left:25px;
+}
+.heading-icon p{
+    color:#7b7b7b;
+    font-size:10px;
+    font-weight:400;
+}
+/*==========IMAGE Area start============*/
+.image-area{
+    position:relative;
+}
+.image-area img{
+   width:100%;
+   height:300px;
+   object-fit:initial;
+}
+.image1 img{
+    width:300px;
+}
+.image1{
+    top:90px;
+    right:-100px;
+    position:relative;
+    z-index:4;
+}
+.image1:after{
+    position:absolute;
+    content:'';
+    top:0;
+    left:0;
+    width:100%;
+    background:transparent;
+    height:100%;
+    border-top:10px solid white;
+    border-left:10px solid white;
+}
+
+.image2{
+   position:absolute;
+   top:0;
+   left:0;
+
+}
+/*==========SECTION TWO AREA END==============*/
+
+/*==========SECTION THREE AREA START==============*/
+
+
+/*====SERVICE AREA =====*/
+.service-area{
+  
+    background:url('Image/background2.jpg');
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    height:250px;
+    position:relative;
+    
+}
+.service-area:after{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:black;
+    opacity:0.4;
+    z-index:3;
+}
+.heading .one{
+    margin-top:50px;
+    position:relative;
+    z-index:6;
+}
+.heading .one h2{
+    margin-bottom:0.5rem;
+    color:white;
+}
+.heading .one p{
+    color:#ffffff;
+    font-size:11px;
+}
+/*=========SERVICE AREA ONE========*/
+.service-area-one{
+    
+    margin-top:-150px;
+    position:relative;
+    z-index:7;
+}
+.card img{
+    width:100%;
+ 
+    object-fit:initial;
+}
+.card h2{
+    font-size:20px;
+    font-weight:bold;
+    color:#000000;
+}
+.card p{
+    font-size:11px;
+    text-align:left;
+    padding:13px;
+    font-weight:bold;
+    color:#7b7b7b;
+}
+.service-btn{
+    margin:40px 0px;
+    text-align:center;
+    margin-left:40px;
+    
+}
+
+
+/*===========SECTION THREE AREA END==========*/
+
+/*=========SECTION FOUR AREA START===========*/
+.project-area{
+    padding:80px 0;
+    background:#222222;
+   
+}
+.project img{
+    width:100%;
+    object-fit:initial;
+}
+.project .img-title{
+    margin-top:1rem;
+    color:white;
+    margin-left:2.7rem;
+    position:relative;
+}
+.project .img-title:after{
+    position:absolute;
+    content:'';
+    top:22px;
+    left:-45px;
+    width:30px;
+    height:18px;
+    background:transparent;
+    border-bottom:2px solid #f6931d;
+    border-right:2px solid #f6931d;
+
+}
+.project .img-title h4{
+    font-size:17px;
+    font-weight:600;
+    margin-bottom:5px;
+}
+.project .img-title p{
+    font-size:12px;
+    font-weight:bold;
+    color:#f6931d;
+}
+/*=========SECTION FOUR AREA END===========*/
+/*===========SECTION FIVE AREA START=============*/
+.company-area{
+    padding:60px 0;
+    background:url('Image/background3.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center center;
+    position:relative;
+    
+    
+}
+.company-area:after{
+    position:absolute;
+    content:'';
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:#f6931d;
+    opacity:0.6;
+    z-index:5;
+}
+.company-area .company-btn{
+    text-decoration:none;
+    color:#fff;
+    background:#0000;
+}
+.company-btn{
+    margin-top:50px;
+    position:relative;
+    z-index:66;
+}
+.company-area .company-btn:hover{
+    text-decoration:none;
+    color:white;
+}
+.heading .heading-title{
+    position:relative;
+    z-index:44;
+}
+.heading .heading-title .two{
+    position:relative;
+}
+.heading .heading-title .two:after{
+    border-top:2px solid white;
+    border-left:2px solid white;
+}
+/*===========SECTION FIVE AREA END=============*/
+/*=========SECTION SIX AREA START===========*/
+.testomonial-area{
+    padding:50px 0;
+ 
+}
+.testomonial .heading .one h5{
+   font-size:11px;
+}
+.testomonial-dec .para{
+    font-size:11px;
+    color:#767676;
+    margin-top:5px;
+}
+.testomonial-dec img{
+    margin-bottom:5px;
+}
+
+/*=========SECTION SIX AREA END===========*/
+/*============SECTION SEVEN AREA START===============*/
+.footer-area{
+    padding:40px 0;
+    background:#f6931d;
+    
+
+}
+.footer-img img{
+    margin:15px;
+}
+
+
+/*============SECTION AREA END===============*/
+
+@media only screen and (max-width: 768px){
+    .navbar a{
+        padding-left:0;
+    }
+   
+    .service-area-one{
+        margin-top:-110px;
+    }
+
+    .company-btn{
+        margin-top:10px;
+        text-align:center;
+    }
+    
+    .footer-img img{
+            margin:10px;
+            width:50px;
+            height:40px;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .nav-item .nav-link{
+        margin:5px;
+        color:#ffffff;
+    }
+    .service-area-one{
+        margin-top:-180px;
+    }
+   .service-btn{
+    margin-left:-50px;
+   }
+   .service-btn{
+    left:40px;
+   
+}
+.image-area .image1 img{
+    width:300px;
+    height:200px;
+}
+.image-area .image2 img{
+    width:300px;
+    height:200px;
+}
+.project-area{
+    padding:70px 0;
+}
+.project img{
+    object-fit:initial;
+}
+
+}
+@media only screen and (max-width: 992px){
+    .navbar a{
+        padding-left:0;
+    }
+}
+@media only screen and (max-width: 768px){
+    .company-btn{
+        margin-top:20px;
+        text-align:center;
+        margin-left:-100px;
+        
+    }
+    .navbar a{
+        padding-left:0;
+    }
+    
+}
+@media only screen and (max-width: 575px){
+    /*=========SECTION ONE AREA===========*/
+   .navbar a{
+    padding-left:0;
+   }
+    .section-one{
+        padding-left:20px;
+    }
+    .section-two{
+        padding-left:20px;
+    }
+
+   .header-logo{
+    padding:100px 0;
+   }
+    .section-one{
+        padding:70px 0;
+       
+    }
+    .project-area{
+        padding:80px 0;
+    }
+    .header h3{
+        font-size:12px;
+        
+    }
+    .header h2{
+        font-size:20px;
+        margin-top:10px;
+    }
+    .header p{
+        font-size:12px;
+        margin-top:7px;
+        margin-bottom:7px;
+    }
+    .header a{
+        font-size:10px;
+    }
+    /*=======SECTION TWO AREA START========*/
+    .section-two{
+        padding:50px 0;
+    }
+    .heading .heading-title h2{
+        font-size:23px;
+        margin-bottom:25px;
+    }
+    .heading .heading-title p{
+        font-size:9.6px;
+    }
+    .heading-title h2:after{
+      
+    }
+    
+    .heading-icon{
+        margin-top:5px;
+    }
+    .icon-dec h3{
+        font-size:25px;
+    }
+    .icon-dec p{
+        font-size:9.8px;
+    }
+    .image1 img{
+        padding-right:30px;
+    }
+   
+    /*=========SERVICE AREA START==========*/
+    .service-area{
+        margin-top:100px;
+    }
+    .service-area-one{
+        margin:0px;
+    }
+    
+   .card h2{
+    font-size:29px;
+   }
+   .card{
+    margin-top:10px;
+   }
+    .card img{
+        width:100%;
+        object-fit:initial;
+        
+    }
+    .heading .one h2{
+        font-size:22px;
+        margin-bottom:5px;
+    }
+    .heading .one p{
+        font-size:11.27px;
+        font-weight:bold;
+        margin-bottom:10px;
+    }
+    .project img{
+        width:80%;
+        margin:0 auto;
+    }
+    .service-btn{
+        left:35px;
+        margin-bottom:10px;
+    }
+    .company-area{
+        padding:40px 0;
+        text-align:left;
+    }
+    .company-btn{
+        margin-top:10px;
+        text-align:center;
+    }
+    /*=========FOOTER AREA START=========*/
+    .footer-img img{
+        margin:10px;
+        width:40px;
+        height:40px;
+    }
+  
+}

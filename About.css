@@ -1,0 +1,384 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+  }
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: myFirstFont;
+}
+
+.all-btn{
+    text-decoration:none;
+    padding:7px 14px;
+    background:#f6931d;
+    font-size:14px;
+    color:#ffffff;
+   
+}
+
+/*=======HEADER AREA START=======*/
+.header-icon span{
+    font-size:11px;
+    
+    font-weight:bold;
+    color:#ffffff;
+}
+
+
+.nav-item .nav-link{
+    margin:10px;
+    color:#ffffff;
+    
+}
+.navbar a{
+    padding-left:190px;
+}
+
+
+
+/*===========ABOUT ONE AREA START=============*/
+.about-area-start{
+    padding:80px 0;
+    background:url('S-image/bc-service.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center center;
+    position:relative;
+}
+.about-area-start:after{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:black;
+    z-index:1;
+    opacity:0.4;
+}
+
+.heading{
+   position:relative;
+   z-index:33;
+}
+.heading > .heading-title h2{
+    font-size:22px;
+    font-weight:bold;
+    margin-bottom:0.4rem;
+    position:relative;
+}
+
+.heading > .heading-title h2:after{
+    content:'';
+    position:absolute;
+    top:-8px;
+    left:-10px;
+    background:transparent;
+    height:17px;
+    width:45px;
+    border-top:2px solid #f6931d;
+    border-left:2px solid #f6931d;
+}
+.heading >.heading-title a{
+    text-decoration:none;
+    font-size:12px;
+    font-weight:bold;
+    margin:5px;
+
+}
+.heading > .heading-title a:hover{
+    text-decoration:none;
+    color:white;
+}
+.heading > .heading-title p{
+    font-size:13.5px;
+    font-weight:bold;
+    font-weight:600;
+    margin-top:15px;
+    
+    
+}
+
+
+
+
+/*===========SECTION TWO AREA START===============*/
+.section-two{
+    padding:80px 0;
+}
+
+/*===========IMAGE AREA START============*/
+.image-area{
+    position:relative;
+}
+.image-area img{
+   width:60%;
+   height:250px;
+   object-fit:initial;
+}
+.image1{
+    top:90px;
+    right:-110px;
+    position:relative;
+    z-index:4;
+}
+.image1:after{
+    position:absolute;
+    content:'';
+    top:0;
+    left:0;
+    width:100%;
+    background:transparent;
+    height:100%;
+    border-top:10px solid white;
+    border-left:10px solid white;
+}
+
+.image2{
+   position:absolute;
+   top:0;
+   left:0;
+
+}
+.project{
+    padding:7px 10px;
+    background:#f6931d;
+    text-decoration:none;
+    font-size:13px;
+    color:#ffffff;
+    font-weight:bold;
+    margin-top:10px;
+}
+.project:hover{
+    text-decoration:none;
+    color:#ffffff;
+}
+
+/*============SECTION THREE AREA RATING AREA===============*/
+.work-rate{
+    background:#f6931d;
+}
+.rating-area img{
+    margin-bottom:17px;
+}
+.rating-area h3{
+    font-size:18px;
+    font-weight:bold;
+    color:#000000;
+    margin-bottom:17px;
+
+}
+.rating-area p{
+    font-size:13.5px;
+    color:#ffffff;
+    font-weight:700;
+    text-align:left;
+}
+/*==============SECTION FOUR AREA START==============*/
+.team-area-start{
+    padding:80px 0;
+}
+.team h3{
+    font-size:16px;
+    color:#f6931d;
+    margin-left:70px;
+    margin-top:15px;
+    position:relative;
+}
+.team h3:after{
+    content:'';
+    position:absolute;
+    top:-8px;
+    left:-20px;
+    width:50px;
+    height:20px;
+    background:transparent;
+    border-top:2px solid #f6931d;
+    border-left:2px solid #f6931d;
+    
+}
+/*===========FOOTER AREA START============*/
+.company-area{
+    padding:60px 0;
+    background:url('Image/background3.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center center;
+    position:relative;
+    
+    
+}
+.company-area:after{
+    position:absolute;
+    content:'';
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:#f6931d;
+    opacity:0.6;
+    z-index:5;
+}
+.company-area .company-btn{
+    text-decoration:none;
+    color:#fff;
+    background:#0000;
+}
+.company-btn{
+    margin-top:50px;
+    position:relative; 
+    z-index:66;
+}
+.company-area .company-btn:hover{
+    text-decoration:none;
+    color:white;
+}
+.company-area .company-btn{
+    text-decoration:none;
+    color:#fff;
+    background:#0000;
+}
+.company-btn{
+    margin-top:10px;
+    position:relative;
+    z-index:66;
+}
+.company-area .company-btn:hover{
+    text-decoration:none;
+    color:white;
+}
+.heading .heading-title{
+    position:relative;
+    z-index:44;
+}
+.heading .heading-title .two{
+    position:relative;
+}
+.heading .heading-title .two:after{
+    border-top:2px solid white;
+    border-left:2px solid white;
+}
+@media only screen and (max-width: 992px){
+    
+    .image1 img{
+        width:300px;
+        height:200px;
+    }
+    .image2 img{
+        width:300px;
+        height:200px;
+    }
+    .navbar a{
+        padding-left:0;
+       }
+
+    .nav-item .nav-link{
+        margin:5px;
+        color:#ffffff;
+    }
+}
+
+
+
+@media only screen and (max-width: 768px){
+    .heading > .heading-title h2{
+        font-size:24px;
+        font-weight:bold;
+    }
+   
+    .image1 img{
+        width: 300px;
+        height:200px;
+    }
+    .image2 img{
+        width:300px;
+        height:200px;
+    }
+   .navbar a{
+    padding-left:0;
+   }
+   
+    .company-btn{
+        margin-top:10px;
+        text-align:center;
+        margin-left:-100px;
+        
+    }
+    .heading .heading-title h2{
+        font-size:24px;
+        font-weight:bold;
+        
+    }
+    .heading > .heading-title p{
+        margin-top:0;
+    }
+
+   .navbar a{
+    padding-left:0;
+   }
+   
+}
+
+@media only screen and (max-width: 575px){
+    .navbar a{
+        padding-left:0;
+    }
+    .heading .heading-title h2{
+        font-size:30px;
+        font-weight:bold;
+    }
+    .heading .heading-title p{
+        margin-top:20px;
+    }
+    .about-area-start{
+        padding-left:10px;
+    }
+    .section-two{
+        padding-left:10px;
+    }
+    .work-rate{
+        padding-left:10px;
+    }
+    .team-area-start{
+        padding-left:10px;
+    }
+    #company-area{
+        padding-left:10px;
+    }
+    
+
+    .image2 img{
+        width:200px;
+    }
+    .image1 img{
+        width:200px;
+    }
+    .work-rate{
+        text-align:center;
+    }
+    .rate1{
+        margin-top:20px;
+    }
+    .none{
+        display:none;
+    }
+    .rate1 p{
+        padding:0 50px;
+       
+    }
+   
+    .company-btn{
+        text-align:center;
+    }
+
+    .company-area{
+        padding:50px 0;
+        text-align:left;
+    }
+    .company-btn{
+        margin-top:20px;
+        text-align:center;
+    }
+}

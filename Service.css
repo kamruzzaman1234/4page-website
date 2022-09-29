@@ -1,0 +1,288 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+  }
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: myFirstFont;
+}
+
+.all-btn{
+    text-decoration:none;
+    padding:7px 14px;
+    background:#f6931d;
+    font-size:14px;
+    color:#ffffff;
+   
+}
+
+/*=================================*/
+
+
+.menu-area ul li{
+    display:inline-block;
+    margin:0 10px;
+  
+}
+.nav-item .nav-link{
+    margin:10px;
+    color:#ffffff;
+}
+.navbar a{
+    padding-left:190px;
+}
+
+
+.header-icon span{
+    font-size:11px;
+    
+    font-weight:bold;
+    color:#ffffff;
+}
+
+
+/*=======SECTION SERVICE AREA START========*/
+.service-area-start{
+    padding:80px 0;
+    background:url('S-image/bc-service.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center center;
+    position:relative;
+}
+.service-area-start:after{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:black;
+    z-index:1;
+    opacity:0.4;
+}
+
+.heading{
+   position:relative;
+   z-index:33;
+}
+.heading > .heading-title h2{
+    font-size:23px;
+    font-weight:bold;
+    margin-bottom:0.4rem;
+    position:relative;
+}
+
+.heading > .heading-title h2:after{
+    content:'';
+    position:absolute;
+    top:-8px;
+    left:-10px;
+    background:transparent;
+    height:17px;
+    width:45px;
+    border-top:2px solid #f6931d;
+    border-left:2px solid #f6931d;
+}
+.heading >.heading-title a{
+    text-decoration:none;
+    font-size:12px;
+    font-weight:bold;
+    margin:5px;
+
+}
+.heading > .heading-title a:hover{
+    text-decoration:none;
+    color:white;
+}
+
+
+/*=======SECTION SERVICE AREA END========*/
+
+/*=============SECTION TWO DOMESTIC AREA START=============*/
+.domestic-area{
+    padding:80px 0;
+
+}
+.heading .heading-title p{
+    font-size:11px;
+    font-weight:300;
+    color:#999999;
+    padding-top:5px;
+}
+.heading .heading-title .two:after{
+    border-top:2px solid #ffffff;
+    border-left:2px solid #ffffff;
+}
+
+.solar{
+    text-transform:uppercase;
+}
+.domestic-dec p{
+    font-size:12px;
+    font-weight:300;
+    padding-top:32px;
+    color:#999999;
+}
+
+
+/*=============SECTION TWO DOMESTIC AREA END=============*/
+/*=============SECTION THREE AREA STAR==============*/
+.commercial-area{
+    padding:80px 0;
+    background:#000000;
+}
+/*=============SECTION THREE AREA END==============*/
+/*===============SECTION FOUR AREA START===============*/
+.solar-pannel{
+    padding:80px 0;
+}
+
+/*===============SECTION FOUR AREA END===============*/
+/*=============COMPANY AREA START==================*/
+.company-area{
+    padding:60px 0;
+    background:url('Image/background3.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center center;
+    position:relative;
+    
+    
+}
+.company-area:after{
+    position:absolute;
+    content:'';
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:#f6931d;
+    opacity:0.6;
+    z-index:5;
+}
+.company-area .company-btn{
+    text-decoration:none;
+    color:#fff;
+    background:#0000;
+}
+.company-btn{
+    margin-top:50px;
+    position:relative;
+    z-index:66;
+}
+.company-area .company-btn:hover{
+    text-decoration:none;
+    color:white;
+}
+.company-btn{
+    margin-top:20px;
+}
+/*================RESPONSIVE AREA START===============*/
+@media only screen and (max-width: 1100px){
+    
+}
+@media only screen and (max-width:992px){
+    .navbar a{
+        padding-left:0;
+    }
+    .nav-item .nav-link{
+        margin:5px;
+        color:#ffffff;
+    }
+    .heading .heading-title h2{
+        font-size:30px;
+    }
+    .company-btn{
+        margin-top:20px;
+    }
+  
+}
+
+@media only screen and (max-width: 768px){
+    .navbar a{
+        padding-left:0;
+    }
+    .heading .heading-title h2{
+        margin-top:30px;
+        font-size:23px;
+        font-weight:bold;
+    }
+    .company-btn{
+        margin-top:60px;
+        text-align:center;
+    }
+
+    .navbar a{
+        padding-left:0px;
+    }
+}
+
+
+
+@media only screen and (max-width: 575px){
+   
+    .service-area-start{
+        padding-left:20px;
+    }
+    .domestic-area{
+        padding-left:20px;
+    }
+    .domestic-image img{
+        width:100%;
+        object-fit:cover;
+    }
+    .commercial-area{
+        padding-left:20px;
+    }
+    .company-area{
+        padding-left:20px;
+    }
+    .solar-pannel{
+        padding-left:20px;
+    }
+    .solar{
+        text-transform:capitalize;
+    }
+    .heading .heading-title h2{
+        font-size:24px;
+        font-weight:bold;
+        
+    }
+    .heading .heading-title p{
+        font-size:11.23px;
+        margin-bottom:0;
+    }
+    .domestic-dec p{
+        margin-top:0;
+    }
+    .heading .heading-title .solar{
+        text-transform:capitalize;
+    }
+    
+    .company-area{
+        padding-top:50px;
+        padding-bottom:50px;
+        text-align:left;
+    }
+    .company-btn{
+        margin-top:20px;
+        text-align:center;
+    }
+    .navbar a{
+        padding-left:0px;
+    }
+    
+    
+}
+@media only screen and (max-width: 768px){
+    .company-btn{
+        margin-top:20px;
+        text-align:center;
+        margin-left:-100px;
+        
+    }
+    
+}
