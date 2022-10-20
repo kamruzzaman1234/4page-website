@@ -1,12 +1,9 @@
-@font-face {
-    font-family: myFirstFont;
-    src: url(sansation_light.woff);
-  }
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family: myFirstFont;
+    font-family: 'Sen', sans-serif;
 }
 /*============HEADER AREA START=================*/
 
@@ -24,9 +21,6 @@
 }
 
 /*============CONTACT SECTION ONE STYLING==============*/
-.navbar a{
-    padding-left:190px;
-}
 .contact-area-start{
     padding:80px 0;
     background:url('S-image/bc-service.jpg');

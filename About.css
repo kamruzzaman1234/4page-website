@@ -1,12 +1,9 @@
-@font-face {
-    font-family: myFirstFont;
-    src: url(sansation_light.woff);
-  }
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family: myFirstFont;
+    font-family: 'Sen', sans-serif;
 }
 
 .all-btn{
@@ -32,11 +29,6 @@
     color:#ffffff;
     
 }
-.navbar a{
-    padding-left:190px;
-}
-
-
 
 /*===========ABOUT ONE AREA START=============*/
 .about-area-start{
@@ -113,9 +105,16 @@
 .image-area{
     position:relative;
 }
+.image2 img{
+    width:270px;
+}
+.image1 img{
+    width:300px;
+}
+  
 .image-area img{
-   width:60%;
-   height:250px;
+  
+   height:300px;
    object-fit:initial;
 }
 .image1{
@@ -245,7 +244,7 @@
     position:relative;
     z-index:66;
 }
-.company-area .company-btn:hover{
+.company-area .all-btn:hover{
     text-decoration:none;
     color:white;
 }
@@ -286,6 +285,9 @@
     .heading > .heading-title h2{
         font-size:24px;
         font-weight:bold;
+    }
+    .heading > .heading-title p{
+        padding-top:10px;
     }
    
     .image1 img{
@@ -328,12 +330,17 @@
     .heading .heading-title h2{
         font-size:30px;
         font-weight:bold;
+        
+    }
+    .heading .heading-title .two:after{
+        color:white;
     }
     .heading .heading-title p{
         margin-top:20px;
     }
     .about-area-start{
         padding-left:10px;
+        
     }
     .section-two{
         padding-left:10px;
@@ -343,6 +350,7 @@
     }
     .team-area-start{
         padding-left:10px;
+        display:none;
     }
     #company-area{
         padding-left:10px;
@@ -368,17 +376,17 @@
         padding:0 50px;
        
     }
-   
-    .company-btn{
-        text-align:center;
+    .company-area .heading .heading-title h2{
+        font-size:20px;
     }
-
     .company-area{
         padding:50px 0;
         text-align:left;
     }
     .company-btn{
-        margin-top:20px;
-        text-align:center;
+        margin-top:30px;
+        text-align:left;
+        padding-left:100px;
     }
+   
 }

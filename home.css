@@ -1,13 +1,10 @@
-@font-face {
-    font-family: myFirstFont;
-    src: url(sansation_light.woff);
-  }
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
   
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family: myFirstFont;
+    font-family: 'Sen', sans-serif;
  
 }
 a{
@@ -34,10 +31,6 @@ a:hover{
     color:white;
 }
 /*==========HEADER AREA START============*/
-.navbar a{
-    padding-left:190px;
-}
-
 
 .nav-item .nav-link{
     margin:10px;
@@ -178,6 +171,9 @@ a:hover{
    height:300px;
    object-fit:initial;
 }
+.image2 img{
+    width:270px;
+}
 .image1 img{
     width:300px;
 }
@@ -272,7 +268,7 @@ a:hover{
 .service-btn{
     margin:40px 0px;
     text-align:center;
-    margin-left:40px;
+   
     
 }
 
@@ -280,22 +276,28 @@ a:hover{
 /*===========SECTION THREE AREA END==========*/
 
 /*=========SECTION FOUR AREA START===========*/
-.project-area{
+.carousel-area-start{
     padding:80px 0;
     background:#222222;
    
 }
-.project img{
+.single-box{
     width:100%;
-    object-fit:initial;
+    object-fit:contain;
+   
 }
-.project .img-title{
+.single-box img{
+    width:100%;
+    height:250px;
+   
+}
+.img-text{
     margin-top:1rem;
     color:white;
-    margin-left:2.7rem;
+    margin-left:3.7rem;
     position:relative;
 }
-.project .img-title:after{
+.img-text:after{
     position:absolute;
     content:'';
     top:22px;
@@ -307,16 +309,21 @@ a:hover{
     border-right:2px solid #f6931d;
 
 }
-.project .img-title h4{
+.img-text h4{
     font-size:17px;
     font-weight:600;
     margin-bottom:5px;
 }
-.project .img-title p{
+.img-text p{
     font-size:12px;
     font-weight:bold;
     color:#f6931d;
 }
+.carousel-indicators{
+    margin-bottom:-70px;
+}
+
+
 /*=========SECTION FOUR AREA END===========*/
 /*===========SECTION FIVE AREA START=============*/
 .company-area{
@@ -465,6 +472,13 @@ a:hover{
     .navbar a{
         padding-left:0;
     }
+
+    .footer-img img{
+        margin:20px;
+        width:80px;
+        height:40px;
+        object-fit:initial;
+    }
     
 }
 @media only screen and (max-width: 575px){
@@ -570,18 +584,32 @@ a:hover{
         margin-bottom:10px;
     }
     .company-area{
-        padding:40px 0;
+        padding:50px 0;
         text-align:left;
     }
     .company-btn{
-        margin-top:10px;
-        text-align:center;
+        margin-top:30px;
+        text-align:left;
+        padding-left:100px;
+    }
+    /*===========TESTOMONIAL AREA START=============*/
+    .company-area .heading .heading-title h2{
+        font-size:20px;
+    }
+    .testomonial-area .heading .heading-title h2{
+        font-size:20px;
     }
     /*=========FOOTER AREA START=========*/
     .footer-img img{
-        margin:10px;
-        width:40px;
+        margin:20px;
+        width:70px;
         height:40px;
+        object-fit:initial;
     }
   
+}
+@media only screen and (max-width: 370px){
+    .footer-img img{
+        width:40px;
+    }
 }
